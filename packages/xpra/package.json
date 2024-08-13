@@ -6,12 +6,6 @@
   "main": "dist/xpra.es.js",
   "module": "dist/xpra.es.js",
   "types": "dist/src/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/xpra.es.js",
-      "require": "./dist/xpra.umd.js"
-    }
-  },
   "files": [
     "dist/",
     "README.md",
