@@ -1,9 +1,9 @@
-import * as path from 'path'
+import * as path from 'node:path'
 import dts from 'vite-plugin-dts'
-import { defineConfig } from 'vite'
+import { defineConfig, type Plugin } from 'vite'
 import { visualizer } from 'rollup-plugin-visualizer'
 
-const plugins = []
+const plugins: Plugin[] = []
 
 if (process.env.VITE_STATS) {
   plugins.push(visualizer())

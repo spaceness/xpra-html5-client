@@ -9,7 +9,8 @@
   "exports": {
     ".": {
       "import": "./dist/xpra.es.js",
-      "require": "./dist/xpra.umd.js"
+      "require": "./dist/xpra.umd.js",
+      "types": "./dist/src/index.d.ts"
     }
   },
   "files": [
